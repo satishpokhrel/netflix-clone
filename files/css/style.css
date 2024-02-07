@@ -1,0 +1,489 @@
+html {
+    background-color: black;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar */
+nav{
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    top: 3vh;
+    width: 75vw;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 12vw;
+}
+.logo{
+    width: 140px;
+    position: relative;
+}
+.btn{
+    background-color: #e30914;
+    position: relative;
+    border: none;
+    color:white;
+    padding: 1px 13px;
+    height: 35px;
+    align-self: center;
+    font-size: 16px;
+    border-radius: 3px;
+}
+.btn:hover{
+    cursor: pointer;
+}
+
+/* First Section */
+.first{
+    position: relative;
+    height: 700px;
+    background: radial-gradient(circle, rgb(0,0,0,0.5), rgb(0,0,0,0.8)), url("../images/netflix-banner.jpg") center;
+}
+
+.first-content{
+    display: flex;
+    width: 850px;
+    line-height: 50px;
+    flex-direction: column;
+    gap: 15px;
+    position: relative;
+    top: 260px;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.form-class{
+    width: 780px;
+}
+
+.input{
+    margin-top: 15px;
+}
+
+.form-class p{
+    font-size: 20px;
+}
+/* First section end */
+
+/* Second Section */
+.second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    max-width: 80vw;
+    margin: 70px auto;
+}
+
+
+.tv {
+    position: relative;
+}
+
+.section-video{
+    position: absolute;
+    height: 196px;
+    top: 77px;
+    right: 71px;
+    z-index: -1;
+}
+
+.tv img{
+    width: 485px;
+}
+
+/* Third section */
+
+.third{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    max-width: 80vw;
+    margin: 70px auto;
+}
+
+
+.mobile img{
+    width: 485px;
+}
+
+
+.mobile {
+    position: relative;
+}
+
+.mobile-box{
+    position: absolute;
+    top: 250px;
+    left: 109px;
+    background-color: black;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    border: 2px solid grey;
+    border-radius: 10px;
+    padding: 10px;
+    width: 15rem;
+}
+
+#box-img{
+    width: 60px;
+}
+
+.mobile-box p{
+    font-size: 16px;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.mobile-box p span{
+    color: #0071eb;
+    font-size: 14px;
+}
+
+#down{
+    width: 30px;
+    position: relative;
+}
+/* Third section end */
+
+/* Fourth section */
+.fourth{
+    display: flex;
+    max-width: 30vw;
+    margin: 70px 125px;
+}
+/* Fourth section end */
+
+/* Fifth section start */
+.fifth{
+    flex-direction: row-reverse;
+}
+.fifth img{
+    width: 40vw;
+}
+/* fifth section end */
+
+/* Sixth section start */
+.sixth{
+    display: flex;
+    flex-direction: column;
+    margin: 70px auto;
+    max-width: 80vw;
+}
+
+.sixth h1{
+    text-align:center ;
+    padding: 15px;
+}
+
+
+.questions{
+    width: 80vw;
+}
+
+.questions p{
+    background-color: #2d2d2d;
+    justify-content: center;
+    margin-top: 15px;
+    padding: 25px;
+}
+
+.fa-plus{
+    float: right;
+}
+
+.question-form{
+    align-self: center;
+    text-align: center;
+    margin-top: 65px;
+}
+/* Sixth section end */
+
+/* Seventh section start */
+.seventh{
+    max-width: 80vw;
+    margin: 70px auto;
+}
+
+.links{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.links ul{
+    list-style: none;
+}
+
+.links li{
+    padding-top: 10px;
+}
+
+.seventh a{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.seventh button{
+    background-color: #2d2d2d;
+    color: white;
+    padding: 8px;
+    font-size: 14px;
+    font-family: "Ubuntu", sans-serif;
+    margin-top: 25px;
+}
+
+.seventh p{
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+/* seventh section end */
+
+
+/* Utility classes */
+h1{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 48px;
+    color: white;
+}
+
+p{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 24px;
+    color: white;
+}
+
+input{
+    background-color: rgba(127,127,127,0.1);
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 4px;
+    color: white;
+    padding: 18px;
+    width: 350px;
+    border: 0.7px solid grey;    
+}
+
+.form-btn{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #e50914;
+    border: none;
+    color: white;
+    margin-left: 7px;
+    padding: 15px 25px;
+    border-radius: 3px;
+    font-size: 24px;
+}
+.form-btn:hover{
+    cursor: pointer;
+}
+
+::placeholder{
+    font-family: "Ubuntu", sans-serif;
+}
+
+hr{
+    background-color: #0f0f0f;
+    height: 6px;
+    border: none;
+}
+
+/* Footer */
+footer{
+    background-color: #232323;
+    padding: 5px;
+}
+footer p{
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+
+.fa-heart{
+    color: red;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 960px){
+    nav{
+        width: 90vw;
+        margin-left: 5vw;
+    }
+
+    .first{
+        background-size: 1400px;
+    }
+
+    .logo {
+        width: 90px;
+    }
+    /* utility  */
+    .heading{
+        font-size: 32px;
+    }
+    .paragraph{
+        font-size: 18px;
+    }
+
+    form .paragraph{
+        font-size: 18px;
+    }
+    .first{
+        height: 89vh;
+    }
+    .first-content{
+        top: 200px;
+        width:650px;
+        line-height: 35px;
+    }
+    .form-class{
+        width: 590px;
+    }
+    .form-btn{
+        padding: 15px 25px;
+        font-size: 18px;
+    }
+    input{
+        font-size: 16px;
+        padding: 15px;
+        width: 388px;    
+    } 
+
+    /* Second section */
+    .second{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .tv{
+        position: relative;
+    }
+    /* Second section 960px media queries end */
+
+    /* Third section media queries */
+    .third{
+        flex-direction: column;
+    }
+
+    .third-text{
+        text-align: center;
+    }
+    
+    .mobile-box{
+        width: 350px;
+        left: 50px;
+        justify-content: space-between;
+    }
+    #box-img{
+        width: 45px;
+    }
+    .mobile-box p{
+        width: 300px;
+    }
+    /* Third section 960px media queries end */
+    /* Fourth section 960px start */
+    .fourth{
+        margin: 70px auto;
+        max-width: 80vw;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 710px) {
+    input{
+        width: 54vw;
+    }
+
+    .first-content{
+        width:90vw;
+    }
+    .form-class{
+        width: 90vw;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+    .first-content{
+        width:90vw;
+        top: 155px;
+    }
+    .first{
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .form-class{
+        width: 80vw;
+    }
+
+    input{
+        width: 74vw;
+        padding: 12px;
+    }
+
+    .form-btn{
+        margin-top: 13px;
+        padding: 12px 25px;
+    }
+
+    /* Second Section */
+
+    .second{
+        overflow: hidden;
+    }
+
+    .tv{
+        position: relative;
+        top: 5px;
+        width: 80vw;
+    }
+
+    .tv img{
+        width: 80vw;
+    }
+
+    .section-video{
+        width: 94%;
+        overflow: hidden;
+        height: 100%;
+        left: 2%;
+        top: 5%;
+    }
+    /* Second section end */
+
+    /* Third section media queries 599px start */
+    .mobile {
+        width: 80vw;
+        position: relative;
+    }
+
+    .mobile img{
+        width: 80vw;
+    }
+
+    .mobile-box{
+        position: absolute;
+        overflow: hidden;
+        width: 57vw;
+        top: 65%;
+        left: 11%;
+        /* width: 55vw; */
+    }
+
+    /* Question section media queries */
+    .questions p{
+        font-size: 20px;
+    }
+}
+
+
+
